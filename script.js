@@ -16,7 +16,6 @@ function playRound(playerSelection, computerSelection) {
 
 // return the result of the game after 5 rounds.
 let playerSelection 
-let round
 function game(playRound){
     for(let i = 0; i < 5; i++){
         playerSelection = prompt('Please enter your choice').toLowerCase()
